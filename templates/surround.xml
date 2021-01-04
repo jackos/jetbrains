@@ -1,0 +1,7 @@
+<templateSet group="surround">
+  <template name="q" value="“$SELECTION$”" description="Surround with quotes" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+</templateSet>
