@@ -70,10 +70,6 @@
     <driver id="mysql_aurora">
       <option name="auto-sync" value="true" />
     </driver>
-    <driver id="oracle.19">
-      <option name="auto-sync" value="true" />
-      <option name="auto-commit" value="false" />
-    </driver>
     <driver id="oracle">
       <option name="auto-sync" value="true" />
       <option name="auto-commit" value="false" />
