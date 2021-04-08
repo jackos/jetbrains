@@ -16,6 +16,9 @@
   <action id="Diff.ApplyLeftSide" />
   <action id="Diff.NextChange" />
   <action id="EditorSelectWord" />
+  <action id="ExternalSystem.ProjectRefreshAction" />
+  <action id="ForceOthersToFollowAction" />
+  <action id="IdeaVim.ReloadVimRc.reload" />
   <action id="MoveLineDown" />
   <action id="MoveTabDown">
     <keyboard-shortcut first-keystroke="shift alt down" />
@@ -28,6 +31,9 @@
     <keyboard-shortcut first-keystroke="alt right" />
   </action>
   <action id="NextTab" />
+  <action id="OpenFile">
+    <keyboard-shortcut first-keystroke="shift ctrl o" />
+  </action>
   <action id="Run">
     <keyboard-shortcut first-keystroke="alt c" />
   </action>
