@@ -1,20 +1,7 @@
 <application>
   <component name="ProjectManager">
     <defaultProject>
-      <component name="accountSettings">
-        <option name="activeProfile" value="profile:default" />
-        <option name="activeRegion" value="us-east-1" />
-        <option name="recentlyUsedProfiles">
-          <list>
-            <option value="profile:default" />
-          </list>
-        </option>
-        <option name="recentlyUsedRegions">
-          <list>
-            <option value="us-east-1" />
-          </list>
-        </option>
-      </component>
+      <component name="Encoding" addBOMForNewFiles="with BOM under Windows, with no BOM otherwise" />
     </defaultProject>
   </component>
 </application>

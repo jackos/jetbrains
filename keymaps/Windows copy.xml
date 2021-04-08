@@ -1,0 +1,43 @@
+<keymap version="1" name="Windows copy" parent="$default">
+  <action id="ActivateRunToolWindow">
+    <keyboard-shortcut first-keystroke="alt x" />
+  </action>
+  <action id="ActivateTerminalToolWindow">
+    <keyboard-shortcut first-keystroke="alt f12" />
+    <keyboard-shortcut first-keystroke="alt t" />
+  </action>
+  <action id="Build">
+    <keyboard-shortcut first-keystroke="alt b" second-keystroke="b" />
+  </action>
+  <action id="CloseContent">
+    <keyboard-shortcut first-keystroke="ctrl f4" />
+    <keyboard-shortcut first-keystroke="ctrl w" />
+  </action>
+  <action id="Diff.ApplyLeftSide" />
+  <action id="Diff.NextChange" />
+  <action id="EditorSelectWord" />
+  <action id="MoveLineDown" />
+  <action id="MoveTabDown">
+    <keyboard-shortcut first-keystroke="shift alt down" />
+  </action>
+  <action id="MoveTabRight">
+    <keyboard-shortcut first-keystroke="shift alt right" />
+  </action>
+  <action id="NextEditorTab" />
+  <action id="NextSplitter">
+    <keyboard-shortcut first-keystroke="alt right" />
+  </action>
+  <action id="NextTab" />
+  <action id="Run">
+    <keyboard-shortcut first-keystroke="alt c" />
+  </action>
+  <action id="ShowSettings">
+    <keyboard-shortcut first-keystroke="alt a" second-keystroke="s" />
+  </action>
+  <action id="SmartSelect" />
+  <action id="TableResult.GrowSelection" />
+  <action id="UnsplitAll">
+    <keyboard-shortcut first-keystroke="alt i" />
+  </action>
+  <action id="XDebugger.MoveWatchDown" />
+</keymap>

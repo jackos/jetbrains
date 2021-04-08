@@ -33,6 +33,18 @@
           <presentable-name>SUSE Linux Enterprise Server 15</presentable-name>
         </descriptor>
         <descriptor>
+          <id>SLES-15-SP1</id>
+          <microsoft-id>SLES-15-SP1</microsoft-id>
+          <executable-path>SLES-15-SP1.exe</executable-path>
+          <presentable-name>SUSE Linux Enterprise Server 15 SP1</presentable-name>
+        </descriptor>
+        <descriptor>
+          <id>SUSE-Linux-Enterprise-Server-15-SP2</id>
+          <microsoft-id>SUSE-Linux-Enterprise-Server-15-SP2</microsoft-id>
+          <executable-path>SUSE-Linux-Enterprise-Server-15-SP2.exe</executable-path>
+          <presentable-name>SUSE Linux Enterprise Server 15 SP2</presentable-name>
+        </descriptor>
+        <descriptor>
           <id>OPENSUSE15</id>
           <microsoft-id>openSUSE-Leap-15</microsoft-id>
           <executable-path>openSUSE-Leap-15.exe</executable-path>
@@ -75,14 +87,14 @@
           <presentable-name>Ubuntu 20.04</presentable-name>
         </descriptor>
         <descriptor>
-          <id>WLINUX</id>
-          <microsoft-id>WLinux</microsoft-id>
-          <executable-path>wlinux.exe</executable-path>
-          <presentable-name>WLinux</presentable-name>
+          <id>Ubuntu-CommPrev</id>
+          <microsoft-id>Ubuntu-CommPrev</microsoft-id>
+          <executable-path>ubuntupreview.exe</executable-path>
+          <presentable-name>Ubuntu on Windows Community Preview</presentable-name>
         </descriptor>
         <descriptor>
           <id>PENGWIN</id>
-          <microsoft-id>Pengwin</microsoft-id>
+          <microsoft-id>WLinux</microsoft-id>
           <executable-path>pengwin.exe</executable-path>
           <presentable-name>Pengwin</presentable-name>
         </descriptor>
@@ -91,6 +103,12 @@
           <microsoft-id>WLE</microsoft-id>
           <executable-path>wle.exe</executable-path>
           <presentable-name>Pengwin Enterprise</presentable-name>
+        </descriptor>
+        <descriptor>
+          <id>fedoraremix</id>
+          <microsoft-id>fedoraremix</microsoft-id>
+          <executable-path>fedoraremix.exe</executable-path>
+          <presentable-name>Fedora Remix for WSL</presentable-name>
         </descriptor>
         <descriptor>
           <id>ARCH</id>
