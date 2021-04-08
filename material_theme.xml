@@ -1,0 +1,9 @@
+<application>
+  <component name="MaterialThemeConfig">
+    <option name="useMaterialFont2" value="true" />
+    <option name="accentColor" value="42a5f5" />
+    <option name="selectedTheme" value="ARC_DARK" />
+    <option name="userId" value="-10845dc6:178878c0272:-8000" />
+    <option name="version" value="5.5.0" />
+  </component>
+</application>
