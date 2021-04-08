@@ -1,7 +1,11 @@
 <application>
   <component name="ProjectManager">
     <defaultProject>
-      <component name="Encoding" addBOMForNewFiles="with BOM under Windows, with no BOM otherwise" />
+      <component name="CMakeSettings">
+        <configurations>
+          <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" ENABLED="true" />
+        </configurations>
+      </component>
     </defaultProject>
   </component>
 </application>
