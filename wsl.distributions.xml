@@ -116,6 +116,12 @@
           <executable-path>Arch.exe</executable-path>
           <presentable-name>Arch Linux</presentable-name>
         </descriptor>
+        <descriptor>
+          <id>WLINUX</id>
+          <microsoft-id>WLinux</microsoft-id>
+          <executable-path>wlinux.exe</executable-path>
+          <presentable-name>WLinux</presentable-name>
+        </descriptor>
       </set>
     </descriptors>
   </component>
