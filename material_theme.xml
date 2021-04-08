@@ -1,9 +1,8 @@
 <application>
   <component name="MaterialThemeConfig">
-    <option name="useMaterialFont2" value="true" />
-    <option name="accentColor" value="2979ff" />
-    <option name="selectedTheme" value="ONE_DARK" />
-    <option name="userId" value="-10845dc6:178878c0272:-8000" />
+    <option name="accentColor" value="ab47bc" />
+    <option name="selectedTheme" value="PALENIGHT" />
+    <option name="userId" value="2aa4cc62:176cc5ad834:-8000" />
     <option name="version" value="5.5.0" />
   </component>
 </application>
