@@ -19,6 +19,5 @@
     <entry key="use.tabbed.welcome.screen" value="false" />
     <entry key="ide.new.project.model" value="true" />
     <entry key="eslint.additional.file.extensions" value="svelte" />
-    <entry key="editor.distraction.free.mode" value="true" />
   </component>
 </application>
