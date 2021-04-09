@@ -1,4 +1,4 @@
-<keymap version="1" name="Windows copy" parent="$default">
+<keymap version="1" name="SharedIDE" parent="$default">
   <action id="ActivateRunToolWindow">
     <keyboard-shortcut first-keystroke="alt x" />
   </action>
@@ -8,6 +8,9 @@
   </action>
   <action id="Build">
     <keyboard-shortcut first-keystroke="alt b" second-keystroke="b" />
+  </action>
+  <action id="ChangeKeymap">
+    <keyboard-shortcut first-keystroke="alt a" second-keystroke="k" />
   </action>
   <action id="CloseContent">
     <keyboard-shortcut first-keystroke="ctrl f4" />
@@ -68,4 +71,7 @@
     <keyboard-shortcut first-keystroke="alt p" />
   </action>
   <action id="XDebugger.MoveWatchDown" />
+  <action id="editRunConfigurations">
+    <keyboard-shortcut first-keystroke="alt r" second-keystroke="e" />
+  </action>
 </keymap>
