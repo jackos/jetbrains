@@ -64,6 +64,10 @@
     <keyboard-shortcut first-keystroke="alt a" second-keystroke="s" />
   </action>
   <action id="SmartSelect" />
+  <action id="Stop">
+    <keyboard-shortcut first-keystroke="ctrl f2" />
+    <keyboard-shortcut first-keystroke="alt s" />
+  </action>
   <action id="TableResult.GrowSelection" />
   <action id="Terminal.ClearBuffer" />
   <action id="Terminal.SwitchFocusToEditor" />
