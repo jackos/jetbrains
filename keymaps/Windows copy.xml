@@ -45,6 +45,9 @@
   <action id="Run">
     <keyboard-shortcut first-keystroke="alt c" />
   </action>
+  <action id="RunMenu">
+    <keyboard-shortcut first-keystroke="alt r" second-keystroke="r" />
+  </action>
   <action id="ShowSettings">
     <keyboard-shortcut first-keystroke="alt a" second-keystroke="s" />
   </action>
