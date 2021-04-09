@@ -55,6 +55,9 @@
   <action id="TableResult.GrowSelection" />
   <action id="Terminal.ClearBuffer" />
   <action id="Terminal.SwitchFocusToEditor" />
+  <action id="Tool_External Tools_yapf">
+    <keyboard-shortcut first-keystroke="alt f" />
+  </action>
   <action id="TypeHierarchy" />
   <action id="TypeHierarchyBase.BaseOnThisType" />
   <action id="UnsplitAll">
