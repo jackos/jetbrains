@@ -68,9 +68,15 @@
     <keyboard-shortcut first-keystroke="ctrl f2" />
     <keyboard-shortcut first-keystroke="alt s" />
   </action>
+  <action id="Switcher">
+    <keyboard-shortcut first-keystroke="alt e" />
+  </action>
   <action id="TableResult.GrowSelection" />
   <action id="Terminal.ClearBuffer" />
   <action id="Terminal.SwitchFocusToEditor" />
+  <action id="ToggleZenMode">
+    <keyboard-shortcut first-keystroke="alt z" />
+  </action>
   <action id="Tool_External Tools_yapf">
     <keyboard-shortcut first-keystroke="alt f" />
   </action>
