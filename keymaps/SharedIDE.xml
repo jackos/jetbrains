@@ -20,6 +20,9 @@
   <action id="Diff.NextChange" />
   <action id="EditorSelectWord" />
   <action id="ExternalSystem.ProjectRefreshAction" />
+  <action id="FileChooser.NewFolder">
+    <keyboard-shortcut first-keystroke="alt insert" />
+  </action>
   <action id="FindNext">
     <keyboard-shortcut first-keystroke="f3" />
   </action>
@@ -27,6 +30,8 @@
   <action id="GoToLastTab">
     <keyboard-shortcut first-keystroke="ctrl h" />
   </action>
+  <action id="GotoChangedFile" />
+  <action id="GotoClass" />
   <action id="IdeaVim.ReloadVimRc.reload" />
   <action id="MoveLineDown" />
   <action id="MoveTabDown">
@@ -34,6 +39,10 @@
   </action>
   <action id="MoveTabRight">
     <keyboard-shortcut first-keystroke="shift alt right" />
+  </action>
+  <action id="NewElement">
+    <keyboard-shortcut first-keystroke="alt insert" />
+    <keyboard-shortcut first-keystroke="ctrl n" />
   </action>
   <action id="NextEditorTab" />
   <action id="NextSplitter">
