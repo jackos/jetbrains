@@ -1,0 +1,9 @@
+<toolSet name="External Tools">
+  <tool name="yapf" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="yapf" />
+      <option name="PARAMETERS" value="-i --style=&quot;{based_on_style: pep8, column_limit: 99}&quot; $FilePath$" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+  </tool>
+</toolSet>
