@@ -6,19 +6,30 @@
     <keyboard-shortcut first-keystroke="alt f12" />
     <keyboard-shortcut first-keystroke="alt t" />
   </action>
+  <action id="Arrangement.Rule.Edit" />
   <action id="Build">
     <keyboard-shortcut first-keystroke="alt b" second-keystroke="b" />
   </action>
   <action id="ChangeKeymap">
     <keyboard-shortcut first-keystroke="alt a" second-keystroke="k" />
   </action>
+  <action id="ChangesView.Rename" />
   <action id="CloseContent">
     <keyboard-shortcut first-keystroke="ctrl f4" />
     <keyboard-shortcut first-keystroke="ctrl w" />
   </action>
+  <action id="Console.TableResult.EditValue">
+    <keyboard-shortcut first-keystroke="enter" />
+    <keyboard-shortcut first-keystroke="alt enter" />
+  </action>
   <action id="Diff.ApplyLeftSide" />
   <action id="Diff.NextChange" />
   <action id="Diff.PrevChange" />
+  <action id="EditorCodeBlockStart" />
+  <action id="EditorEscape">
+    <keyboard-shortcut first-keystroke="escape" />
+    <keyboard-shortcut first-keystroke="alt e" />
+  </action>
   <action id="EditorSelectWord" />
   <action id="ExpressionTypeInfo" />
   <action id="ExternalSystem.ProjectRefreshAction" />
@@ -29,17 +40,19 @@
     <keyboard-shortcut first-keystroke="f3" />
   </action>
   <action id="ForceOthersToFollowAction" />
+  <action id="Git.Rename.Local.Branch" />
+  <action id="Git.Reword.Commit">
+    <keyboard-shortcut first-keystroke="shift f6" />
+  </action>
   <action id="GotoAction">
     <keyboard-shortcut first-keystroke="shift ctrl p" />
   </action>
   <action id="GotoChangedFile" />
   <action id="GotoClass" />
   <action id="GotoNextError">
-    <keyboard-shortcut first-keystroke="f2" />
     <keyboard-shortcut first-keystroke="alt n" />
   </action>
   <action id="GotoPreviousError">
-    <keyboard-shortcut first-keystroke="shift f2" />
     <keyboard-shortcut first-keystroke="shift alt n" />
   </action>
   <action id="IdeaVim.ReloadVimRc.reload" />
@@ -80,6 +93,12 @@
     <keyboard-shortcut first-keystroke="shift ctrl i" />
     <keyboard-shortcut first-keystroke="alt d" />
   </action>
+  <action id="RenameElement">
+    <keyboard-shortcut first-keystroke="f2" />
+  </action>
+  <action id="RenameFile">
+    <keyboard-shortcut first-keystroke="shift f2" />
+  </action>
   <action id="Run">
     <keyboard-shortcut first-keystroke="alt c" />
   </action>
@@ -92,6 +111,7 @@
   <action id="SearchEverywhere.PrevTab">
     <keyboard-shortcut first-keystroke="ctrl h" />
   </action>
+  <action id="ShelvedChanges.Rename" />
   <action id="ShowSettings">
     <keyboard-shortcut first-keystroke="alt a" second-keystroke="s" />
   </action>
@@ -100,8 +120,9 @@
     <keyboard-shortcut first-keystroke="ctrl f2" />
     <keyboard-shortcut first-keystroke="alt s" />
   </action>
-  <action id="Switcher">
-    <keyboard-shortcut first-keystroke="alt e" />
+  <action id="Switcher" />
+  <action id="SwitcherPreviousProblem">
+    <keyboard-shortcut first-keystroke="shift alt n" />
   </action>
   <action id="TableResult.GrowSelection" />
   <action id="Terminal.ClearBuffer" />
@@ -125,7 +146,9 @@
   <action id="WelcomeScreen.Plugins">
     <keyboard-shortcut first-keystroke="alt p" />
   </action>
+  <action id="XDebugger.EditWatch" />
   <action id="XDebugger.MoveWatchDown" />
+  <action id="XDebugger.SetValue" />
   <action id="editRunConfigurations">
     <keyboard-shortcut first-keystroke="alt r" second-keystroke="e" />
   </action>
