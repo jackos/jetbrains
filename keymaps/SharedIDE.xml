@@ -19,6 +19,7 @@
   <action id="Diff.ApplyLeftSide" />
   <action id="Diff.NextChange" />
   <action id="EditorSelectWord" />
+  <action id="ExpressionTypeInfo" />
   <action id="ExternalSystem.ProjectRefreshAction" />
   <action id="FileChooser.NewFolder">
     <keyboard-shortcut first-keystroke="alt insert" />
@@ -29,6 +30,9 @@
   <action id="ForceOthersToFollowAction" />
   <action id="GoToLastTab">
     <keyboard-shortcut first-keystroke="ctrl h" />
+  </action>
+  <action id="GotoAction">
+    <keyboard-shortcut first-keystroke="shift ctrl p" />
   </action>
   <action id="GotoChangedFile" />
   <action id="GotoClass" />
@@ -54,6 +58,7 @@
   <action id="OpenFile">
     <keyboard-shortcut first-keystroke="shift ctrl o" />
   </action>
+  <action id="ParameterInfo.GoToPreviousSignature" />
   <action id="Run">
     <keyboard-shortcut first-keystroke="alt c" />
   </action>
