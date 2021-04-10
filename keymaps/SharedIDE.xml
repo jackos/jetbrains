@@ -26,10 +26,6 @@
   <action id="Diff.NextChange" />
   <action id="Diff.PrevChange" />
   <action id="EditorCodeBlockStart" />
-  <action id="EditorEscape">
-    <keyboard-shortcut first-keystroke="escape" />
-    <keyboard-shortcut first-keystroke="alt e" />
-  </action>
   <action id="EditorSelectWord" />
   <action id="ExpressionTypeInfo" />
   <action id="ExternalSystem.ProjectRefreshAction" />
