@@ -18,6 +18,7 @@
   </action>
   <action id="Diff.ApplyLeftSide" />
   <action id="Diff.NextChange" />
+  <action id="Diff.PrevChange" />
   <action id="EditorSelectWord" />
   <action id="ExpressionTypeInfo" />
   <action id="ExternalSystem.ProjectRefreshAction" />
@@ -66,6 +67,9 @@
     <keyboard-shortcut first-keystroke="shift ctrl o" />
   </action>
   <action id="ParameterInfo.GoToPreviousSignature" />
+  <action id="PrevSplitter">
+    <keyboard-shortcut first-keystroke="alt left" />
+  </action>
   <action id="PreviousEditorTab">
     <keyboard-shortcut first-keystroke="ctrl h" />
   </action>
