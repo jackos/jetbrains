@@ -33,6 +33,14 @@
   </action>
   <action id="GotoChangedFile" />
   <action id="GotoClass" />
+  <action id="GotoNextError">
+    <keyboard-shortcut first-keystroke="f2" />
+    <keyboard-shortcut first-keystroke="alt n" />
+  </action>
+  <action id="GotoPreviousError">
+    <keyboard-shortcut first-keystroke="shift f2" />
+    <keyboard-shortcut first-keystroke="shift alt n" />
+  </action>
   <action id="IdeaVim.ReloadVimRc.reload" />
   <action id="MoveLineDown" />
   <action id="MoveTabDown">
@@ -63,6 +71,10 @@
   </action>
   <action id="PreviousTab">
     <keyboard-shortcut first-keystroke="ctrl h" />
+  </action>
+  <action id="QuickImplementations">
+    <keyboard-shortcut first-keystroke="shift ctrl i" />
+    <keyboard-shortcut first-keystroke="alt d" />
   </action>
   <action id="Run">
     <keyboard-shortcut first-keystroke="alt c" />
@@ -102,6 +114,10 @@
     <keyboard-shortcut first-keystroke="alt i" />
   </action>
   <action id="Vcs.Log.FocusTextFilter" />
+  <action id="Vcs.Log.ShowTooltip">
+    <keyboard-shortcut first-keystroke="ctrl q" />
+    <mouse-shortcut keystroke="alt button2" />
+  </action>
   <action id="WelcomeScreen.Plugins">
     <keyboard-shortcut first-keystroke="alt p" />
   </action>
@@ -109,4 +125,5 @@
   <action id="editRunConfigurations">
     <keyboard-shortcut first-keystroke="alt r" second-keystroke="e" />
   </action>
+  <action id="tasks.goto" />
 </keymap>
