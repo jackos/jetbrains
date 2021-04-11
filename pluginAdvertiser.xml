@@ -112,6 +112,11 @@
                       <FeaturePluginData displayName="HTTP Request" pluginName="HTTP Client" pluginId="com.jetbrains.restClient" bundled="true" />
                     </value>
                   </entry>
+                  <entry key="JULIA_RUN_CONFIG_ID">
+                    <value>
+                      <FeaturePluginData displayName="Julia" pluginName="Julia" pluginId="org.ice1000.julia" />
+                    </value>
+                  </entry>
                   <entry key="JavaScriptTestRunnerJest">
                     <value>
                       <FeaturePluginData displayName="Jest" pluginName="JavaScript and TypeScript" pluginId="JavaScript" bundled="true" />
