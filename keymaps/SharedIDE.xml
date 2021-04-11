@@ -23,6 +23,7 @@
     <keyboard-shortcut first-keystroke="alt enter" />
   </action>
   <action id="Diff.ApplyLeftSide" />
+  <action id="Diff.ApplyRightSide" />
   <action id="Diff.NextChange" />
   <action id="Diff.PrevChange" />
   <action id="EditorCodeBlockStart" />
@@ -52,6 +53,9 @@
     <keyboard-shortcut first-keystroke="shift alt n" />
   </action>
   <action id="IdeaVim.ReloadVimRc.reload" />
+  <action id="MoveEditorToOppositeTabGroup">
+    <keyboard-shortcut first-keystroke="shift alt left" />
+  </action>
   <action id="MoveLineDown" />
   <action id="MoveTabDown">
     <keyboard-shortcut first-keystroke="shift alt down" />
