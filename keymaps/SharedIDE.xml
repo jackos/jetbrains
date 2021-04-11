@@ -111,6 +111,9 @@
   <action id="RenameFile">
     <keyboard-shortcut first-keystroke="shift f2" />
   </action>
+  <action id="RestartIde">
+    <keyboard-shortcut first-keystroke="ctrl alt r" />
+  </action>
   <action id="Run">
     <keyboard-shortcut first-keystroke="alt c" />
   </action>
