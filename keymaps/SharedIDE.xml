@@ -79,6 +79,9 @@
     <keyboard-shortcut first-keystroke="alt insert" />
     <keyboard-shortcut first-keystroke="ctrl n" />
   </action>
+  <action id="NewFile">
+    <keyboard-shortcut first-keystroke="alt a" second-keystroke="n" />
+  </action>
   <action id="NextEditorTab">
     <keyboard-shortcut first-keystroke="ctrl l" />
   </action>
