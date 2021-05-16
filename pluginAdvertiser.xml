@@ -7,6 +7,11 @@
             <FeaturePluginsList>
               <option name="featureMap">
                 <map>
+                  <entry key="AhkRunConfiguration">
+                    <value>
+                      <FeaturePluginData displayName="AutoHotkey" pluginName="AutoHotkey" pluginId="de.nordgedanken.auto_hotkey" />
+                    </value>
+                  </entry>
                   <entry key="CLionExternalRunConfiguration">
                     <value>
                       <FeaturePluginData displayName="Custom Build Application" pluginName="CLion IDE" pluginId="com.intellij.clion" bundled="true" />
