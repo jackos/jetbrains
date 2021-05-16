@@ -23,6 +23,9 @@
     <keyboard-shortcut first-keystroke="alt a" second-keystroke="k" />
   </action>
   <action id="ChangesView.Rename" />
+  <action id="CloseAllEditorsButActive">
+    <keyboard-shortcut first-keystroke="shift ctrl alt delete" />
+  </action>
   <action id="CloseContent">
     <keyboard-shortcut first-keystroke="ctrl f4" />
     <keyboard-shortcut first-keystroke="ctrl w" />
@@ -145,6 +148,9 @@
     <keyboard-shortcut first-keystroke="alt a" second-keystroke="s" />
   </action>
   <action id="SmartSelect" />
+  <action id="StateWidgetRunConfigurationsAction">
+    <keyboard-shortcut first-keystroke="alt r" second-keystroke="n" />
+  </action>
   <action id="Stop">
     <keyboard-shortcut first-keystroke="ctrl f2" />
     <keyboard-shortcut first-keystroke="alt s" />
