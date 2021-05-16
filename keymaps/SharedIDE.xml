@@ -120,6 +120,10 @@
     <keyboard-shortcut first-keystroke="alt d" />
   </action>
   <action id="RecentLocations" />
+  <action id="ReformatCode">
+    <keyboard-shortcut first-keystroke="ctrl alt l" />
+    <keyboard-shortcut first-keystroke="ctrl s" />
+  </action>
   <action id="RenameElement">
     <keyboard-shortcut first-keystroke="f2" />
   </action>
