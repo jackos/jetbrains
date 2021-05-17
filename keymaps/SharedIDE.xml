@@ -30,12 +30,20 @@
     <keyboard-shortcut first-keystroke="ctrl f4" />
     <keyboard-shortcut first-keystroke="ctrl w" />
   </action>
+  <action id="CompareDirs">
+    <keyboard-shortcut first-keystroke="ctrl d" />
+    <keyboard-shortcut first-keystroke="shift alt c" />
+  </action>
   <action id="Console.TableResult.EditValue">
     <keyboard-shortcut first-keystroke="enter" />
     <keyboard-shortcut first-keystroke="alt enter" />
   </action>
-  <action id="Diff.ApplyLeftSide" />
-  <action id="Diff.ApplyRightSide" />
+  <action id="Diff.ApplyLeftSide">
+    <keyboard-shortcut first-keystroke="shift ctrl a" />
+  </action>
+  <action id="Diff.ApplyRightSide">
+    <keyboard-shortcut first-keystroke="shift ctrl r" />
+  </action>
   <action id="Diff.NextChange" />
   <action id="Diff.PrevChange" />
   <action id="EditorCodeBlockStart" />
@@ -119,6 +127,7 @@
     <keyboard-shortcut first-keystroke="shift ctrl i" />
     <keyboard-shortcut first-keystroke="alt d" />
   </action>
+  <action id="RecentChanges" />
   <action id="RecentLocations" />
   <action id="ReformatCode">
     <keyboard-shortcut first-keystroke="ctrl alt l" />
@@ -130,6 +139,8 @@
   <action id="RenameFile">
     <keyboard-shortcut first-keystroke="shift f2" />
   </action>
+  <action id="ReplaceInPath" />
+  <action id="RerunTests" />
   <action id="RestartIde">
     <keyboard-shortcut first-keystroke="ctrl alt r" />
   </action>
