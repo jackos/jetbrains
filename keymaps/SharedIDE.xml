@@ -1,4 +1,7 @@
 <keymap version="1" name="SharedIDE" parent="$default">
+  <action id="ActivateEventLogToolWindow">
+    <keyboard-shortcut first-keystroke="alt o" />
+  </action>
   <action id="ActivateFindToolWindow">
     <keyboard-shortcut first-keystroke="alt 3" />
     <keyboard-shortcut first-keystroke="alt f" />
@@ -52,6 +55,7 @@
   <action id="Diff.PrevChange" />
   <action id="EditorCodeBlockStart" />
   <action id="EditorSelectWord" />
+  <action id="ExportToTextFile" />
   <action id="ExpressionTypeInfo" />
   <action id="ExternalSystem.ProjectRefreshAction" />
   <action id="FileChooser.NewFolder">
