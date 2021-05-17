@@ -1,4 +1,8 @@
 <keymap version="1" name="SharedIDE" parent="$default">
+  <action id="ActivateFindToolWindow">
+    <keyboard-shortcut first-keystroke="alt 3" />
+    <keyboard-shortcut first-keystroke="alt f" />
+  </action>
   <action id="ActivateProjectToolWindow">
     <keyboard-shortcut first-keystroke="alt 1" />
     <keyboard-shortcut first-keystroke="shift ctrl e" />
@@ -183,9 +187,6 @@
   </action>
   <action id="ToggleZenMode">
     <keyboard-shortcut first-keystroke="alt z" />
-  </action>
-  <action id="Tool_External Tools_yapf">
-    <keyboard-shortcut first-keystroke="alt f" />
   </action>
   <action id="TypeHierarchy" />
   <action id="TypeHierarchyBase.BaseOnThisType" />
