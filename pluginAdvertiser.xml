@@ -84,7 +84,7 @@
                   </entry>
                   <entry key="DatabaseScript">
                     <value>
-                      <FeaturePluginData displayName="Database Script" pluginName="Database Tools and SQL" pluginId="com.intellij.database" bundled="true" />
+                      <FeaturePluginData displayName="Database Script" pluginName="Database Tools and SQL for WebStorm" pluginId="com.intellij.database" />
                     </value>
                   </entry>
                   <entry key="DotNetFolderPublish">
@@ -254,7 +254,7 @@
                   </entry>
                   <entry key="TSqltConfigurationType">
                     <value>
-                      <FeaturePluginData displayName="tSQLt Test" pluginName="Database Tools and SQL" pluginId="com.intellij.database" bundled="true" />
+                      <FeaturePluginData displayName="tSQLt Test" pluginName="Database Tools and SQL for WebStorm" pluginId="com.intellij.database" />
                     </value>
                   </entry>
                   <entry key="Tox">
@@ -269,7 +269,7 @@
                   </entry>
                   <entry key="UtPlSqlConfigurationType">
                     <value>
-                      <FeaturePluginData displayName="utPLSQL Test" pluginName="Database Tools and SQL" pluginId="com.intellij.database" bundled="true" />
+                      <FeaturePluginData displayName="utPLSQL Test" pluginName="Database Tools and SQL for WebStorm" pluginId="com.intellij.database" />
                     </value>
                   </entry>
                   <entry key="UwpProject">
