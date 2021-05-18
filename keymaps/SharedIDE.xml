@@ -23,6 +23,9 @@
   <action id="Arrangement.Rule.Group.Condition.Move.Up" />
   <action id="Arrangement.Rule.Match.Condition.Move.Down" />
   <action id="Arrangement.Rule.Match.Condition.Move.Up" />
+  <action id="AttachProject">
+    <keyboard-shortcut first-keystroke="shift ctrl alt a" />
+  </action>
   <action id="Build">
     <keyboard-shortcut first-keystroke="alt b" second-keystroke="b" />
   </action>
