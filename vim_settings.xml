@@ -13,7 +13,7 @@
       <shortcut-conflict owner="ide">
         <text>ctrl pressed W</text>
       </shortcut-conflict>
-      <shortcut-conflict owner="ide">
+      <shortcut-conflict owner="vim">
         <text>ctrl pressed D</text>
       </shortcut-conflict>
       <shortcut-conflict owner="vim">
