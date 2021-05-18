@@ -1,4 +1,11 @@
 <keymap version="1" name="SharedIDE" parent="$default">
+  <action id="ActivateEventLogToolWindow">
+    <keyboard-shortcut first-keystroke="alt o" />
+  </action>
+  <action id="ActivateFindToolWindow">
+    <keyboard-shortcut first-keystroke="alt 3" />
+    <keyboard-shortcut first-keystroke="alt f" />
+  </action>
   <action id="ActivateProjectToolWindow">
     <keyboard-shortcut first-keystroke="alt 1" />
     <keyboard-shortcut first-keystroke="shift ctrl e" />
@@ -30,21 +37,31 @@
     <keyboard-shortcut first-keystroke="ctrl f4" />
     <keyboard-shortcut first-keystroke="ctrl w" />
   </action>
+  <action id="CompareDirs">
+    <keyboard-shortcut first-keystroke="ctrl d" />
+    <keyboard-shortcut first-keystroke="shift alt c" />
+  </action>
   <action id="Console.TableResult.EditValue">
     <keyboard-shortcut first-keystroke="enter" />
     <keyboard-shortcut first-keystroke="alt enter" />
   </action>
-  <action id="Diff.ApplyLeftSide" />
-  <action id="Diff.ApplyRightSide" />
+  <action id="Diff.ApplyLeftSide">
+    <keyboard-shortcut first-keystroke="shift ctrl a" />
+  </action>
+  <action id="Diff.ApplyRightSide">
+    <keyboard-shortcut first-keystroke="shift ctrl r" />
+  </action>
   <action id="Diff.NextChange" />
   <action id="Diff.PrevChange" />
   <action id="EditorCodeBlockStart" />
   <action id="EditorSelectWord" />
+  <action id="ExportToTextFile" />
   <action id="ExpressionTypeInfo" />
   <action id="ExternalSystem.ProjectRefreshAction" />
   <action id="FileChooser.NewFolder">
     <keyboard-shortcut first-keystroke="alt insert" />
   </action>
+  <action id="FileChooser.TogglePathShowing" />
   <action id="FindNext">
     <keyboard-shortcut first-keystroke="f3" />
   </action>
@@ -62,6 +79,10 @@
   </action>
   <action id="GotoChangedFile" />
   <action id="GotoClass" />
+  <action id="GotoFile">
+    <keyboard-shortcut first-keystroke="shift ctrl n" />
+    <keyboard-shortcut first-keystroke="ctrl p" />
+  </action>
   <action id="GotoNextError">
     <keyboard-shortcut first-keystroke="alt n" />
   </action>
@@ -105,6 +126,7 @@
   <action id="OpenFile">
     <keyboard-shortcut first-keystroke="shift ctrl o" />
   </action>
+  <action id="ParameterInfo" />
   <action id="ParameterInfo.GoToPreviousSignature" />
   <action id="PrevSplitter">
     <keyboard-shortcut first-keystroke="alt left" />
@@ -119,6 +141,7 @@
     <keyboard-shortcut first-keystroke="shift ctrl i" />
     <keyboard-shortcut first-keystroke="alt d" />
   </action>
+  <action id="RecentChanges" />
   <action id="RecentLocations" />
   <action id="ReformatCode">
     <keyboard-shortcut first-keystroke="ctrl alt l" />
@@ -130,6 +153,8 @@
   <action id="RenameFile">
     <keyboard-shortcut first-keystroke="shift f2" />
   </action>
+  <action id="ReplaceInPath" />
+  <action id="RerunTests" />
   <action id="RestartIde">
     <keyboard-shortcut first-keystroke="ctrl alt r" />
   </action>
@@ -173,9 +198,6 @@
   <action id="ToggleZenMode">
     <keyboard-shortcut first-keystroke="alt z" />
   </action>
-  <action id="Tool_External Tools_yapf">
-    <keyboard-shortcut first-keystroke="alt f" />
-  </action>
   <action id="TypeHierarchy" />
   <action id="TypeHierarchyBase.BaseOnThisType" />
   <action id="UnsplitAll">
@@ -196,5 +218,6 @@
   <action id="editRunConfigurations">
     <keyboard-shortcut first-keystroke="alt r" second-keystroke="e" />
   </action>
+  <action id="org.intellij.plugins.markdown.ui.actions.editorLayout.CyclicSplitLayoutChangeAction" />
   <action id="tasks.goto" />
 </keymap>
