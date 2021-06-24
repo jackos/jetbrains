@@ -106,7 +106,7 @@
   </action>
   <action id="EditorDown">
     <keyboard-shortcut first-keystroke="down" />
-    <keyboard-shortcut first-keystroke="alt k" />
+    <keyboard-shortcut first-keystroke="j" />
   </action>
   <action id="EditorDownWithSelection">
     <keyboard-shortcut first-keystroke="shift down" />
@@ -114,7 +114,7 @@
   </action>
   <action id="EditorLeft">
     <keyboard-shortcut first-keystroke="left" />
-    <keyboard-shortcut first-keystroke="alt n" />
+    <keyboard-shortcut first-keystroke="h" />
   </action>
   <action id="EditorLeftWithSelection">
     <keyboard-shortcut first-keystroke="shift left" />
@@ -152,17 +152,14 @@
     <keyboard-shortcut first-keystroke="page_up" />
     <keyboard-shortcut first-keystroke="alt w" />
   </action>
-  <action id="EditorPreviousWord">
-    <keyboard-shortcut first-keystroke="ctrl left" />
-    <keyboard-shortcut first-keystroke="alt j" />
-  </action>
+  <action id="EditorPreviousWord" />
   <action id="EditorPreviousWordWithSelection">
     <keyboard-shortcut first-keystroke="shift ctrl left" />
     <keyboard-shortcut first-keystroke="shift alt j" />
   </action>
   <action id="EditorRight">
     <keyboard-shortcut first-keystroke="right" />
-    <keyboard-shortcut first-keystroke="alt m" />
+    <keyboard-shortcut first-keystroke="l" />
   </action>
   <action id="EditorRightWithSelection">
     <keyboard-shortcut first-keystroke="shift right" />
@@ -176,8 +173,7 @@
     <keyboard-shortcut first-keystroke="shift alt e" />
   </action>
   <action id="EditorUp">
-    <keyboard-shortcut first-keystroke="up" />
-    <keyboard-shortcut first-keystroke="alt i" />
+    <keyboard-shortcut first-keystroke="k" />
   </action>
   <action id="EditorUpWithSelection">
     <keyboard-shortcut first-keystroke="shift up" />
