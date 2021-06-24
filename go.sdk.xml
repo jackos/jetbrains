@@ -3,6 +3,7 @@
     <sdk-url>
       <set>
         <option value="file://$USER_HOME$/sdk/go1.16.3" />
+        <option value="file:///usr/lib/go" />
       </set>
     </sdk-url>
   </component>
