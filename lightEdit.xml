@@ -2,8 +2,11 @@
   <component name="LightEdit">
     <option name="sessionFiles">
       <list>
-        <option value="file:///-help" />
+        <option value="file://$USER_HOME$/temp.txt" />
       </list>
+    </option>
+    <option name="frameInfo">
+      <frame x="1536" y="19" width="768" height="1061" />
     </option>
   </component>
 </application>

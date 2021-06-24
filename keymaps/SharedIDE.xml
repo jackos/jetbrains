@@ -136,7 +136,6 @@
     <keyboard-shortcut first-keystroke="shift alt u" />
   </action>
   <action id="EditorNextWord">
-    <keyboard-shortcut first-keystroke="ctrl right" />
     <keyboard-shortcut first-keystroke="alt l" />
   </action>
   <action id="EditorNextWordWithSelection" />
@@ -279,6 +278,7 @@
   <action id="NextTab">
     <keyboard-shortcut first-keystroke="ctrl l" />
     <keyboard-shortcut first-keystroke="shift ctrl close_bracket" />
+    <keyboard-shortcut first-keystroke="ctrl right" />
   </action>
   <action id="OpenFile">
     <keyboard-shortcut first-keystroke="shift ctrl o" />
@@ -294,6 +294,7 @@
   <action id="PreviousTab">
     <keyboard-shortcut first-keystroke="ctrl h" />
     <keyboard-shortcut first-keystroke="shift ctrl open_bracket" />
+    <keyboard-shortcut first-keystroke="ctrl left" />
   </action>
   <action id="QuickImplementations">
     <keyboard-shortcut first-keystroke="shift ctrl i" />
@@ -359,6 +360,12 @@
   <action id="Terminal.ClearBuffer" />
   <action id="Terminal.SwitchFocusToEditor">
     <keyboard-shortcut first-keystroke="alt e" />
+  </action>
+  <action id="TerminalSplitActionBase$Horizontal">
+    <keyboard-shortcut first-keystroke="shift alt j" />
+  </action>
+  <action id="TerminalSplitActionBase$Vertical">
+    <keyboard-shortcut first-keystroke="shift alt l" />
   </action>
   <action id="ToggleLineBreakpoint">
     <keyboard-shortcut first-keystroke="ctrl f8" />
