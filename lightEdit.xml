@@ -3,6 +3,7 @@
     <option name="sessionFiles">
       <list>
         <option value="file://$USER_HOME$/temp.txt" />
+        <option value="file://$USER_HOME$/vimwiki/go/variables.go" />
       </list>
     </option>
     <option name="frameInfo">
