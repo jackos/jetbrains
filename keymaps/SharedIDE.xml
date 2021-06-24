@@ -361,7 +361,9 @@
   </action>
   <action id="TableResult.GrowSelection" />
   <action id="Terminal.ClearBuffer" />
-  <action id="Terminal.SwitchFocusToEditor" />
+  <action id="Terminal.SwitchFocusToEditor">
+    <keyboard-shortcut first-keystroke="alt e" />
+  </action>
   <action id="ToggleLineBreakpoint">
     <keyboard-shortcut first-keystroke="ctrl f8" />
     <keyboard-shortcut first-keystroke="alt period" />
